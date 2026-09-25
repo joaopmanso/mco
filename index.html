@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MCO is now GLUE</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://joaopmanso.github.io/glue/">
+<script>
+  // MCO was renamed GLUE: keep the path after /mco/, the query and the #/route.
+  var rest = location.pathname.replace(/^\/mco\/?/, '');
+  location.replace('/glue/' + rest + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=/glue/">
+</head>
+<body style="font-family:system-ui,sans-serif;background:#0e1116;color:#e8eaed;display:grid;place-items:center;min-height:100vh;margin:0">
+<p>MCO is now <b>GLUE</b>, Global Library Utility Exporter. <a style="color:#7cc7ff" href="/glue/">Open GLUE</a>. Your data and settings carry over.</p>
+</body>
+</html>
